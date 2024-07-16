@@ -1,0 +1,184 @@
+.container{
+    background-color: white;
+    height: 12vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.wrapper{
+    /* background-color: blue; */
+    height: 10vh;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.nav{
+    background-color: white;
+    height: 10vh;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 42rem;
+}
+
+.Company{
+    display: flex;
+    margin-top: 5px;
+}
+
+.container2{
+    /* background-color: red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   /* align-items: center; */
+   justify-content: center;
+    background-image: url(../opaybackground.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 80px;
+}
+
+.div1{
+    text-align: left;
+    width: 43rem;
+    margin-top: 5rem;
+    font: 1em sans-serif;
+    line-height: 1.8;
+}
+.wrapper-2{
+    width: 90%;
+    height: 50%;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.container-3{
+    height: 100vh;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.wrapper-container-3{
+    height: 90%;
+    width: 90%;
+    /* background-color: pink; */
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.wrapper-3{
+    width: 20%;
+    height: 80%;
+    background-color: red;
+    gap: 3px;
+}
+
+.contact-div{
+    height: 40%;
+    width:250px ;
+    /* background-color: aqua; */
+    border-radius: 20px;
+    font-size: small;
+}
+
+.side-img-div{
+    /* background-color: aquamarine;  */
+    height: 100%; 
+    width: 70%; 
+    background-image: url(../slide-img-1.png); 
+    background-repeat: no-repeat; background-size: contain; position: absolute; right: 10px; top: 40px"
+}
+/* .contact-info{
+    border-radius: 20px;
+} */
+
+.container-4{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    /* background-color: purple; */
+}
+
+
+.container-4-wrapper{
+height: 300px;
+width: 168px;
+/* background-color: pink; */
+} 
+
+.container-4-wrapper:hover .bottom{
+    background-color: #1DCF9F;
+    bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ;
+}
+
+.empty-div{
+    height: 100%; 
+    width: 50%;
+   /* background-color: green; */
+}
+
+.top{
+    height: 50%;
+    width: 180px;
+    /* background-color: blue; */
+    display: flex;
+    /* position: relative; */
+}
+.image-div{
+    height: 100%;
+    width: 100%;
+    width: 300px;
+    /* background-image: url(../slide-img-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 190px ;
+    top: 60px; */
+}
+
+.bottom{
+    height: 200px;
+    width: 180px;
+    /* background-color: green; */
+    border-radius: 20px;
+    /* margin: auto; */
+}
+
+.bottom-wrapper{
+    height: 95%;
+    width: 95%;
+    /* background-color: green; */
+    border-radius: 18px;
+    margin-left: 20px;
+
+}
+
+.icon-div{
+    height: 45%;
+    width: 90%;
+    /* background-color: bisque; */
+    /* border-radius: 20px; */
+    /* margin-left: 10px; */
+}
+
+.text-info-div{
+    height: 45%;
+    width: 90%;
+    /* background-color: silver; */
+    /* margin-left: 10px; */
+}

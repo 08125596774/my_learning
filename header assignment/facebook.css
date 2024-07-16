@@ -1,0 +1,109 @@
+.container{
+    /* background-color: red; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    /* background-color: blue; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side{
+    /* background-color: aqua; */
+    width: 22%;
+    height: vh;
+    display: flex;
+}
+
+.center{
+    /* background-color: aliceblue; */
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side{
+    /* background-color: antiquewhite; */
+    width: 15%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar{
+    height: 2.5rem;
+    align-items: center;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 9rem;
+
+}
+
+.notification-icon{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+.notification{
+    position: relative;
+}
+
+.messenger-icon{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: -13px;
+    left: 13px;
+    bottom: 14px;
+    margin-top: 3px;
+}
+
+.messenger{
+    position: relative;
+}
+
+.group-icon{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    left: 18px;
+    margin-top: 2px;
+}
+
+.group{
+    position: relative;
+}

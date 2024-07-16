@@ -1,0 +1,46 @@
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown .nav{
+    height: 40px;
+    width: 120px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.dropdown a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    display: block;
+}
+
+.dropdown .content{
+    display: none;
+    background-color: blue;
+    min-width: 120px;
+    /* position: absolute; */
+    bottom: 73%;
+    box-shadow: 2px 2px 5px hsl(0, 0%, 0%, 0.8);
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown a:hover{
+    background-color: rgb(105, 105, 230);
+}
+
+.dropdown .container{
+    display: none;
+}
+
+.dropdown:hover .container{
+    display: block;
+}

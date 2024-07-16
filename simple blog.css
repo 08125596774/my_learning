@@ -1,0 +1,35 @@
+h2{
+    text-align: center;
+    font-size: large;
+}
+img{
+    height: 20rem;
+    width: 20rem;
+    margin-left: 33rem;
+    border-radius: 50%;
+}
+#div1{
+    background-color: blue;
+    text-align: center;
+    width: 25rem;
+    border-radius: 10rem;
+    margin-left: 33rem;
+    height: 25px;
+}
+.class1{
+    text-align: left;
+    width: 30rem;
+}
+.class2{
+    text-align: right;
+    width: 30rem;
+    margin-left: 50rem;
+}
+.class3{
+    text-align: right;
+}
+button{
+    margin-left: 35rem;
+    height: 30px;
+    width: 10rem;
+}

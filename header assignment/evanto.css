@@ -1,0 +1,144 @@
+.container{
+    background-color: whitesmoke;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    /* background-color: blue; */
+    height: 15vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.up{
+    /* background-color: red; */
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    /* background-color: green; */
+    width: 15%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A-I{
+    /* background-color: white; */
+    width: 20%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    background-color: white;
+    width: 40%;
+    height: 5vh;
+    display: flex;
+}
+
+input{
+    outline: none;
+
+}
+
+.search-logo{
+    background-color: grey;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.L-P{
+    /* background-color: aqua; */
+    display: flex;
+    width: 10%;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    background-color: red;
+    height: 6vh;
+    width: 18%;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.down{
+    /* background-color: indigo; */
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.L{ width: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container2{
+    background-color: green;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.wrapper2{
+    background-color: purple;
+    height: 70vh;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.R-F{
+    background-color: blue;
+    height: 60vh;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content{
+    /* flex-direction: row; */
+    height: 50vh;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.W-J{
+    background-color: green;
+    height: 60vh;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+

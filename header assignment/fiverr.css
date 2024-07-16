@@ -1,0 +1,47 @@
+.container{
+    /* background-color: red; */
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    /* background-color: blue; */
+    width: 95%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.FX-EB{
+    /* background-color: green; */
+    width: 50%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* text-align: center; */
+    font-weight: bold;
+}
+
+.logo{
+    gap: 10rem;
+}
+
+.sign-in{
+    padding: 10px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.join{
+    padding: 10px;
+    font-weight: bold;
+}
+
+

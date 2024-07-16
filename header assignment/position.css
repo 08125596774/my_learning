@@ -1,0 +1,24 @@
+
+.parent{
+    /* position: relative; */
+    
+}
+
+/* .child1{
+    position: fixed;
+    width: 100%;
+    top: 0;
+} */
+/* .child1{
+position: absolute;
+top: 70px;
+left: -5px;
+} */
+
+.child3{
+    position: sticky;
+    top: 0
+}
+.child5{
+    height: 100vh;
+}

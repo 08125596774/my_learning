@@ -1,0 +1,24 @@
+body{
+    background-color: purple;
+}
+h4{
+    text-align: center;
+}
+#first-div{
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 25rem;
+    height: 20px;
+    border-radius: 5rem;
+    margin-left: 30rem;
+}
+#second-div{
+    text-align: center;
+    background-color: green;
+    color: white;
+    width: 25rem;
+    height: 20px;
+    border-radius: 5rem;
+    margin-left: 30rem;
+} 
